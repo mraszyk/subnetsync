@@ -1,0 +1,14 @@
+[package]
+name = "subnetsync"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version = "1.20.1", features = ["full"] }
+ic-agent = "0.20.0"
+leb128 = "0.2.1"
+serde = "1.0.143"
+serde_cbor = "0.11.2"
+serde_json = "1.0.83"
